@@ -15,6 +15,10 @@ RSpec.describe String, type: :model do
       expect("racecar".palindrome?).to be true
       expect("  race_car   ".palindrome?).to be true
       expect("race, car.".palindrome?).to be true
+      expect("mom is si mom".palindrome?).to be true
+      expect("DAD".palindrome?).to be true
+      expect("dog god".palindrome?).to be true
+      expect("tattarrattat".palindrome?).to be true
     end
     
     it "should return false when given a non palindromes" do
