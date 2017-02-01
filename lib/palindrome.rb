@@ -16,10 +16,9 @@ class String
     self.gsub(/[^a-z0-9']/, '').split('')
   end
 
-  def reverse(arr, res = [])
+  def reverse(array, result = [])
     # returns the reversed array
-    n = arr.size
-    (n).times{res << arr.pop}
-    res.join
+    (array.size).times{result << array.pop}
+    result.join
   end
 end
