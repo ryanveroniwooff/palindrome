@@ -1,12 +1,12 @@
 class String
   def palindrome?
     # returns true if length < 2 or it is a palindrome
-    self.length < 2 || is_palindrome(self) ? true : false
+    self.length < 2 || is_palindrome?(self) ? true : false
   end
   
   protected
 
-  def is_palindrome(array)
+  def is_palindrome?(array)
     # compares reversed string to original
     reverse(array.to_clean_array) == array.to_clean_array.join
   end
