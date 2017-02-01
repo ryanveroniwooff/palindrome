@@ -3,6 +3,8 @@ class String
     # returns true if length < 2 or it is a palindrome
     self.length < 2 || is_palindrome(self) ? true : false
   end
+  
+  protected
 
   def is_palindrome(array)
     # compares reversed string to original
