@@ -1,1 +1,1 @@
-## Palindrome Algortithm Challenge
+## Palindrome Challenge
