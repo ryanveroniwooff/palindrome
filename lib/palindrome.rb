@@ -1,8 +1,8 @@
 class String
-	def palindrome?
+  def palindrome?
     # returns true if length < 2 or it is a palindrome
-		self.length < 2 || is_palindrome(self) ? true : false
-	end
+    self.length < 2 || is_palindrome(self) ? true : false
+  end
 
   def is_palindrome(array)
     # compares reversed string to original
